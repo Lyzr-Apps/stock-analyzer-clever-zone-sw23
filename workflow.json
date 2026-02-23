@@ -1,0 +1,11 @@
+{
+  "nodes": [
+    {"id": "input_node", "type": "Input", "label": "Scheduler / Manual Trigger", "nodeCategory": "input"},
+    {"id": "stock_agent", "type": "Agent", "label": "MSFT Stock Analysis Agent", "nodeCategory": "agent"},
+    {"id": "output_node", "type": "Output", "label": "Dashboard Feed", "nodeCategory": "end"}
+  ],
+  "edges": [
+    {"source": "input_node", "target": "stock_agent"},
+    {"source": "stock_agent", "target": "output_node"}
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "agents": {
+    "msft_stock_analysis_agent": {
+      "agent_id": "699c608cb6c78525434dfd6c",
+      "name": "MSFT Stock Analysis Agent",
+      "provider": "perplexity",
+      "model": "sonar-pro"
+    }
+  },
+  "schedules": {
+    "msft_stock_schedule": {
+      "schedule_id": "699c6093399dfadeac38a2e8",
+      "agent_id": "699c608cb6c78525434dfd6c",
+      "cron_expression": "*/10 * * * *",
+      "timezone": "America/New_York",
+      "message": "Analyze the latest Microsoft (MSFT) stock price movements and trends. Provide a 2-3 bullet point summary."
+    }
+  }
+}

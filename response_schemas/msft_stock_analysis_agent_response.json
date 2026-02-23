@@ -1,0 +1,26 @@
+{
+  "agent_name": "MSFT Stock Analysis Agent",
+  "agent_id": "699c608cb6c78525434dfd6c",
+  "description": "Searches the web for latest Microsoft stock price data and generates a concise 2-3 bullet point analysis covering price movements, momentum, and key trend changes",
+  "agent_type": "json",
+  "accessor": "result",
+  "auto_generated": true,
+  "response_schema": {
+    "current_price": "string",
+    "price_change": "string",
+    "direction": "string",
+    "bullet_points": [
+      "string"
+    ],
+    "timestamp": "string"
+  },
+  "example_response": {
+    "current_price": "Current MSFT stock price, e.g. '$420.50'",
+    "price_change": "Price change amount and percentage, e.g. '+$3.20 (+0.77%)'",
+    "direction": "Price direction: 'up', 'down', or 'flat'",
+    "bullet_points": [
+      "sample string"
+    ],
+    "timestamp": "ISO timestamp of when analysis was generated"
+  }
+}

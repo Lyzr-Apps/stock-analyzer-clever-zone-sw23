@@ -1,0 +1,14 @@
+{
+  "agent_name": "MSFT Stock Analysis Agent",
+  "agent_id": "699c608cb6c78525434dfd6c",
+  "agent_type": "json",
+  "accessor": "json",
+  "has_module_outputs": false,
+  "response_schema": {
+    "current_price": "string - Current MSFT stock price, e.g. '$420.50'",
+    "price_change": "string - Price change amount and percentage, e.g. '+$3.20 (+0.77%)'",
+    "direction": "string - Price direction: 'up', 'down', or 'flat'",
+    "bullet_points": "array of strings - 2-3 concise bullet point analysis sentences",
+    "timestamp": "string - ISO timestamp of when analysis was generated"
+  }
+}
