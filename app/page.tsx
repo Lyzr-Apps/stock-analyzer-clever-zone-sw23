@@ -33,7 +33,7 @@ import {
 // ---------------------------------------------------------------------------
 
 const AGENT_ID = '699c608cb6c78525434dfd6c'
-const SCHEDULE_ID = '699c6093399dfadeac38a2e8'
+const SCHEDULE_ID = '699c6233399dfadeac38a36c'
 
 const THEME_VARS: React.CSSProperties & Record<string, string> = {
   '--background': '220 25% 7%',
